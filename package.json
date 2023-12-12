@@ -1,0 +1,34 @@
+{
+  "name": "mx.edu.utxj.ti.dsm.awos.biebesraices-220856",
+  "version": "1.0.0",
+  "description": "\"Este proyecto sera desarrollado con Node, Express, Sequelize, PUG, Tailwind, Leaflef, consistira en realizar un sistema web que permitira la publicacion de propiedad para su compra venta.\",",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "server": "nodemon index.js",
+    "css" : "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "keywords": [
+    "AWOS",
+    "API",
+    "REST",
+    "MYSQL",
+    "BIENES",
+    "RAICES",
+    "TAILWIND"
+  ],
+  "author": "MIGUEL ANGEL HERNANDEZ GONZALEZ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "nodemon": "^3.0.2",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.3.6"
+  }
+}
